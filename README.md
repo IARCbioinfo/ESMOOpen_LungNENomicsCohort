@@ -12,3 +12,8 @@
       + Scripts to train and evaluate the model
       + Script to create the segmentation maps
 - Training sets for Ki-67 and HE/HES WSI are available on request from mathiane[at]iarc[dot]who[int], as is the pre-trained model (*will be available on a server soon*).
+
+## Automatic assessment of lung neuroendocrine neoplasms (LNEN) proliferative activity using [Pathonet](https://www.nature.com/articles/s41598-021-86912-w)
+-  The Ki-67 and PHH3 indices were quantified automatically using the Pathonet supervised deep learning model. An adaptation of this model is available at the following address [https://github.com/IARCbioinfo/PathonetLNEN](https://github.com/IARCbioinfo/PathonetLNEN)
+- This repository also contains scripts for calculating spatial metrics using graph theory as proposed by Bullloni and colleagues [See : Automated analysis of proliferating cells spatial organization predicts prognosis in lung neuroendocrine neoplasms, Cancers 2021](https://www.mdpi.com/2072-6694/13/19/4875)
+- Annotated LNEN tiles are available on request from mathiane[at]iarc[dot]who[int].
