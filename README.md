@@ -16,4 +16,13 @@
 ## Automatic assessment of lung neuroendocrine neoplasms (LNEN) proliferative activity using [Pathonet](https://www.nature.com/articles/s41598-021-86912-w)
 -  The Ki-67 and PHH3 indices were quantified automatically using the Pathonet supervised deep learning model. An adaptation of this model is available at the following address [https://github.com/IARCbioinfo/PathonetLNEN](https://github.com/IARCbioinfo/PathonetLNEN)
 - This repository also contains scripts for calculating spatial metrics using graph theory as proposed by Bullloni and colleagues [See : Automated analysis of proliferating cells spatial organization predicts prognosis in lung neuroendocrine neoplasms, Cancers 2021](https://www.mdpi.com/2072-6694/13/19/4875)
-- Annotated LNEN tiles are available on request from mathiane[at]iarc[dot]who[int].
+- Annotated LNEN tiles and network weights are available on request from mathiane@iarc.who.int.
+
+## WSI features extraction using [Barlow Twins](https://proceedings.mlr.press/v139/zbontar21a.html)
+- The unsupervised deep learning model called Barlow Twins, proposed by J. Zbontar and colleagues, was used to extract the features of the tiles composing the HE-stained WSIs of LNEN patients. The adaptation of the method to the pathology that we have developed in  PyTorch is available at  [https://github.com/IARCbioinfo/LNENBarlowTwins](https://github.com/IARCbioinfo/LNENBarlowTwins).
+- LNEN pre-processed tiles and network weights are available on request from mathiane@iarc.who.int.
+
+
+## To do list
+- 🚧 Spatial PCA
+- 🚧 Some stats script
