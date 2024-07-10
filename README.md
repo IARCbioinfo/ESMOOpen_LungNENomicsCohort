@@ -22,11 +22,5 @@
 - The unsupervised deep learning model called Barlow Twins, proposed by J. Zbontar and colleagues, was used to extract the features of the tiles composing the HE-stained WSIs of LNEN patients. The adaptation of the method to the pathology that we have developed in  PyTorch is available at  [https://github.com/IARCbioinfo/LNENBarlowTwins](https://github.com/IARCbioinfo/LNENBarlowTwins).
 - LNEN pre-processed tiles and network weights are available on request from mathiane@iarc.who.int.
 
-## Spatial PCA for WSI
-- The projections obtained from the Barlow twins are independent of the location of the tiles on the WSI. To model the fact that tiles spatially close to each other on the WSI are more likely to share common morphological features, we adapted the spatial principal component analysis (PCA) originally proposed for WSIs by [L. Shang and X. Zhou, NAT COM 2022](https://www.nature.com/articles/s41467-022-34879-1).
-- The R scripts are available at [https://github.com/IARCbioinfo/SpatialPCAForWSIs](https://github.com/IARCbioinfo/SpatialPCAForWSIs).
-- This repository also contains the method for calculating the Leiden community, which allows tiles that are more likely to have similar morphological features to be grouped together in the same cluster.
-
-
 ## To do list
 - 🚧 Some stats script
